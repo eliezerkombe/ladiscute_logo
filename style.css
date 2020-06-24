@@ -1,0 +1,470 @@
+.app-logo, .login-screen-title {
+  font-family: 'bigger_love_demoregular', Arial, sans-serif !important;
+  font-weight:normal;
+  font-style:normal;
+  font-size: 40px !important;
+}
+
+.title{
+  color: #2196f3 !important;
+}
+
+.search-label{color:#777;}
+
+
+body{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif !important;
+  font-size: 12px;
+}
+.post-feed-content{
+  margin: 0px 7px;
+  text-align: center;
+}
+
+.post-wrapper{
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+  min-height: 100px;
+  max-width: 500px;
+  min-width:250px;
+  border-radius:4px;
+  background:white;
+  overflow:hidden;
+  margin:9px auto 7px auto;
+  position: relative;
+  text-align: left;
+  /*box-decoration-break: clone;
+  column-gap:normal;*/
+}
+
+.hr-li-wrapper{
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+  min-height: 100px;
+  max-width: 500px;
+  min-width:250px;
+  border-radius:4px;
+  background:white;
+  overflow:hidden;
+  margin:9px auto 7px auto;
+  position: relative;
+  text-align: left;
+}
+
+.hr-li {
+  padding:5px;
+}
+
+.hr-li > div{
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+.hr-li-innerwrapper {
+  margin-top: 0px;
+}
+
+.hr-li-avatar{
+  background: orange;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-weight: bold;
+    font-family: arial;
+    color:white;
+    font-size: 26px;
+  border-radius: 100%;
+  cursor: pointer;
+  line-height: 50px;
+  overflow: hidden;
+}
+
+.hr-li-innerwrapper > div{
+  font-size: 10px;
+}
+.hr-li-username{
+  font-weight: bold;
+}
+.hr-li-textcontent{
+  font-weight: normal;
+  position: absolute;
+}
+.hr-li-textcontent span{
+  position: relative !important;
+}
+
+.hr-li-date{
+  color: grey;
+}
+
+.post-content-column{
+  display: inline-block;
+  vertical-align: top;
+}
+.post-thumbnail{
+  /*border: 1px solid #bec4d2;*/
+  width:  65px;
+  height: 80px;
+  padding: 5px;
+
+}
+.post-content-wrapper{
+  padding: 10px;
+  text-align: center;
+}
+.thumbnail{
+  width: 50px !important;;
+  max-height: 65px !important;;
+  position: absolute !important;;
+  background: #e9ebf0 !important;;
+  border-radius: 5px !important;;
+  border: 1px solid white !important;;
+  overflow: hidden !important;;
+  line-height: 0;
+}
+.skeleton-thumbnail{
+  width: 50px;
+  height: 65px;
+  position: absolute;
+  border-radius: 5px;
+  border: 1px solid #e9ebf0 !important;
+  overflow: hidden;
+  font-size: 10px;
+  color:#bec4d2;
+  font-weight: bold;
+  line-height: inherit !important;
+}
+.skeleton-thumbnail:nth-child(1){
+  margin-left: 14px; 
+}
+.skeleton-thumbnail:nth-child(2){
+  margin-left: 7px;
+  margin-top: 7px;
+}
+.skeleton-thumbnail:nth-child(3){
+  margin-top: 14px;
+  
+}
+
+.skeleton-footer-button{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin:5px 15px 5px auto;
+}
+
+
+.noactivity-thumbnail{
+  width: 50px;
+  position: absolute;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid white !important;
+  overflow: hidden;
+  font-size: 10px;
+  color:#8E8E8E;
+  font-weight: bold;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  line-height: inherit !important;
+  background: #ccc !important;
+}
+.thumbnail > img{
+  margin:0px auto !important;
+  max-height: auto !important;
+  max-width: 100% !important;
+  
+}
+.thumbnail:nth-child(1){
+  margin-left: 14px; 
+}
+.thumbnail:nth-child(2){
+  margin-left: 7px;
+  margin-top: 7px;
+}
+.thumbnail:nth-child(3){
+  margin-top: 14px;
+  
+}
+.thumbnail-details > div:nth-child(1){
+  color: #999;
+  overflow: hidden;
+  font-size: 10px;
+}
+.thumbnail-details > div:nth-child(2){
+  color: #999;
+  overflow: hidden;
+  font-size: 10px;
+}
+.post-title-wrapper{
+  padding: 5px;
+  color: #004085 !important;
+  background-color: #cce5ff;
+  min-height: 30px;
+}
+.post-title{
+  font-weight: 300;
+  font-size: 20px;
+  max-width: 235px;
+  margin: auto;
+  line-height: 20px;
+}
+.post-footer-button{
+  width:45px;
+  height: 30px;
+  margin:5px;
+  margin-left: auto;
+}
+.post-footer-button i{
+  color: #666;
+}
+.app-logo, .title{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.postfeed-wrapper{
+  margin-bottom: 70px;
+  padding: 7px;
+}
+.left > a > i{
+  color: #777;
+}
+.right > a > i{
+  color:#777;
+}
+
+:root {
+  /*--f7-theme-color:  #00aeef !important;*/
+  /*--f7-theme-color: #2196f3;*/
+  --f7-theme-color: linear-gradient(to right, #2196f3, #f44336);
+}
+
+.panel-content > div > ul > li > div > div > div > i{
+  color: #777 !important;
+}
+
+.post-label-0{
+  font-weight: bold;
+}
+
+.panel-label{
+  color: #555 !important;
+}
+.profile-navbar{
+    background: #2196f3; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2196f3, #f44336); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2196f3, #f44336); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.profile-navbar::before{
+    background: #2196f3; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2196f3, #f44336); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2196f3, #f44336); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.profile-navbar .navbar-inner .title, .profile-navbar .navbar-inner .right a i{
+    color:white !important;
+}
+
+.profile-wrapper{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background: #2196f3; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2196f3, #f44336); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2196f3, #f44336); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.profile-wrapper{
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.4);
+}
+.profile-inner-wrapper{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.profile-wrapper > .profile-inner-wrapper > .profile-image{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    cursor: pointer;
+    display: inline-block;
+    margin: auto;
+    overflow: hidden;
+    vertical-align: top;
+}
+.profile-wrapper > .profile-inner-wrapper > .profile-image > img{
+    width: 60px;
+    height: 60px;
+}
+.profile-wrapper > .profile-inner-wrapper > .profile-fullname{
+    margin-top: 10px;
+    color: black;
+    display: inline-block;
+}
+.profile-wrapper > .profile-inner-wrapper > .profile-names{
+    color:white;
+    display: inline-block;
+    margin-left: 12px;
+    text-align: left !important;
+    margin-top: 15px;
+}
+.bio{color: white !important};
+.profile-fullname{
+  font-weight: bold;
+}
+.profile-follow-info{
+  display: block;
+  font-weight: bold;
+  color:black;
+  background: rgba(0,0,0, 0.2);
+}
+.profile-follow-info > div{
+  display: inline-block;
+  text-align: center;
+  margin-left: 10px;
+  color: white;
+  padding: 0px 4px;
+  font-size: 14px;
+}
+.profile-follow-button{
+  color: white;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+  text-align: left !important;
+  margin-top: 12px;
+  width: 37px !important;
+  height: 37px !important;
+  min-width: 36px !important;
+  border-radius: 100% !important;
+  padding: 4px !important;
+  background: rgba(0,0,0,0.2) !important;
+}
+.followers > span, .following > span{
+  padding: 4px 7px;
+  background: rgba(0,0,0,0.4) !important;
+  border-radius: 3px;
+}
+.panel-view, .panel-view .list ul{
+  background: #eee !important;
+}
+.panel-view .list ul i{
+  color: black !important;
+}
+.profile-image{
+  color: white;
+  font-size: 40px; 
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+}
+
+/*APP MENU*/
+.app-menu li{
+  text-align: left;
+  margin: 10px 0px;
+}
+
+.app-menu li a{
+  color: #555 !important;
+}
+/**************/
+/**************/
+/*create-form*/
+.create-navbar{
+  width: 100%;
+  background: transparent !important;
+ /* opacity: 0.2;*/
+}
+
+.create-tabbar{
+  height: 180px;
+  width: 100%;
+  /*background: white;*/
+ /* opacity: 0.2;*/
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 0;
+  /*border-top: 1px solid gray;*/
+}
+
+.create-navbar .left a i{
+  color: white !important;
+}
+
+.create-navbar::before{
+  background: #4e54c8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.create-form{
+  background: var(--f7-login-screen-content-bg-color);
+}
+
+.create-form .list{
+  max-width: var(--f7-login-screen-blocks-max-width);
+  margin: var(--f7-login-screen-blocks-margin-vertical) auto;
+}
+
+.create-form .list-button {
+  text-align: center;
+  color: var(--f7-login-screen-list-button-text-color,var(--f7-theme-color));
+}
+
+.create-form .list ul {
+  background: 0 0;
+}
+
+.create-form .block-footer{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--f7-login-screen-blocks-max-width);
+}
+
+.create-form{
+  margin-top: 60px;
+}
+
+.toolbar > .fab a{
+  background: linear-gradient(to right, #2196f3, #f44336) !important;
+}
+
+.toolbar > .fab a i{
+  color: white !important;
+  opacity: 1 !important;
+  font-size: 60px;
+}
+div[data-name="create"], .create-form{
+  background: #4e54c8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.post-button{
+  margin:auto;
+  position: relative;
+  display: block;
+  width: 120px;
+}
+
+.save-settings-button{
+  margin:auto !important;
+  position: relative !important;
+  display: block !important;
+  width: 300px;
+  background:  var(--f7-theme-color-shade) !important;
+  color:  white !important;
+}
+
+.create-textarea textarea{
+  height: 300px;
+  font-size: 32px;
+  color: white;
+}
+
+
+
+
+
